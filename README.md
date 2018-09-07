@@ -1,16 +1,6 @@
-# lunchbot for Slack
-We can never decide where to eat for lunch, so this bot will tell us what to do. Or at least make a suggestion. 
+#bob ross bot for webhooks
 
-This bot, built for [Slack](https://slack.com/), posts its decision into a team Slack channel.
+Basically, it chooses a random episode and posts it to a webhook
+This is then adjusted by zapier and sent to discord webhook
 
-##Dependencies
-
-Well, the big thing this requires is [Slack](https://slack.com/), which is a team communications tool we use.
-
-This is a program written in JavaScript for [Node](http://nodejs.org/), and it uses the the Request node module.
-
-	npm install request
-	
-##For More info
-
-Deets on how this came to be, and how to get the incoming webhook URL you need to make this work, can be found in [this blog post](http://johnkeefe.net/make-every-week-lunch-bot "Make Every Week: Lunch Bot - johnkeefe.net").
+credit to jkeefe: https://github.com/jkeefe/lunchbot/blob/master/lunchbot.js
